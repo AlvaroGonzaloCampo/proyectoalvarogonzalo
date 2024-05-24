@@ -1,0 +1,197 @@
+body {
+    background-image: url(../images/Fondopagina.jpg);
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    .barra {
+        display: flex;
+        background-color: rgb(80, 24, 24);
+        height: 150px;
+        width: 100vw;
+        justify-content: space-around;
+        .logo{
+            position: relative;
+            width: 140px ;
+            height: 130px ;
+        }
+        .cartel{
+            align-self: center;
+            align-self: flex;
+            color: black;
+            font-weight: 110;
+            font-size: 40px;
+            font-style: normal;
+            font-family: "Cinzel", serif;
+            position: relative;
+        }
+
+        ul a {
+            text-decoration: none;
+            color: white;
+        }
+
+        ul.menu li {
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            display: inline-block; 
+            margin-right: 20px;
+            text-decoration: none;
+            border-radius: 10px;
+            padding: 5px;
+            &:hover{
+                background-color: black;
+                transition: .5s;
+            }
+        }
+        .menu {
+            align-self:flex-end ;
+        }
+        
+        .dropdown{
+            display: none;
+            
+            #botonMenu {
+                background-color: transparent;
+                border-style: none;
+            }
+    
+            img{
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+
+
+}
+
+main{
+
+    .cartelera {
+        display: flex;
+        width: 250px;
+        height: 150px;
+        margin: 0 auto;
+    }
+
+    .car {
+        display: flex;
+        margin: 50px 0;
+        justify-content: space-evenly;
+    }
+
+    .imgCartelera{
+        width: 300px;
+        border-radius: 5px;
+        border-color: rgb(80, 24, 24);
+        border-style: solid;
+    }
+
+    .separador1{
+        background-image: url(../images/separador1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 20em;
+    }
+
+    .imgCartelerasab {
+        width: 300px;
+        border-radius: 5px;
+        border-color: rgb(80, 24, 24);
+        border-style: solid;
+        &:hover {
+            transform: scale(1.1);
+            transition: .5s;
+        }
+    }
+
+    .ubicacion{
+        margin-top: 3rem;
+        font-size: 40px;
+        font-family: "Roboto Mono", monospace;
+        font-style: normal;
+        text-align: center;
+
+        .separador2{
+            background-image: url(../images/separador2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 400px;
+        }
+        .encontrarnos{
+            width: 230px;
+            height: 150px;
+        }
+        iframe {
+            margin-top: 2rem;
+            width: 100vw;
+            height: 300px;
+        }
+    }
+
+    .subir {
+        width: 50px;
+        height: 50px;
+        margin-left: 5rem;
+        margin-top: 2rem ;
+        margin-bottom: 5rem;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 2px;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: black;
+    }
+}
+
+footer{
+    
+    .barra2{
+        display: grid;
+        background-color: rgb(80, 24, 24);
+        height: 150px;
+        width: 100vw;
+        grid-template-columns: 0.1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "item5 item6";
+        align-items: center;
+
+        .logo2{
+            width: 140px ;
+            height: 130px ;
+        }
+
+        .item5{
+            grid-area: "item5";
+        }
+
+        .redesBarra{
+            p{
+                font-size: 20px;
+                color: white;
+                text-align: center;
+                margin-left: -25px;
+                font-family: "Poppins", sans-serif;
+            }
+            a img{
+                margin-top: 5px;
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        .item6{
+            justify-self: center;
+            grid-area: "item6";
+        }
+    }
+}

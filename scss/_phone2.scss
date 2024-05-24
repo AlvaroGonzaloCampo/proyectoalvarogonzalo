@@ -1,0 +1,102 @@
+@media screen and (max-width:400px) {
+
+    .barra{
+        .logo{
+            margin-left: 6rem;
+        }
+        .cartel{
+            font-size: 30px;
+            width: 320px;
+            padding-right: 0rem;
+        }
+        .menu{
+            display: none;
+        }
+        .dropdown{
+            display: inline;
+        }
+    }
+
+    .barra2{
+        .redesBarra{
+            margin-left: 5rem;
+        }
+    }
+
+    .cartelera{
+        margin-left: 5rem;
+    }
+    .car{
+        flex-direction: column;
+        .imgCartelera{
+            margin-left: 3rem;
+            width: 300px;
+            margin-top: 10px;
+        }
+        .imgCartelerasab {
+            width: 300px;
+            margin-left: 3rem;
+            margin-top: 10px;
+        }
+    }
+    .separador1{
+        display: none;
+    }
+    .separador2{
+        display: none;
+    }
+
+    .solicitud{
+        margin-left: 5rem;
+    }
+    .reservas{
+        width: 300px;
+        flex-direction: column;
+        height: fit-content;
+        .formulario{
+            margin-left: 0rem;
+            font-size: 17px;
+            width: 300px;
+        }
+        .pergamino{
+            width: 395px;
+        }
+    }
+
+    .comida{
+        width: 300px;
+        .comidaIzquierda{
+            width: 300px;
+            margin: 0;
+            padding: 0;
+            margin-top: 3rem;
+        }
+        .comidaDerecha{
+            width: 300px;
+            margin: 0;
+            padding: 0;
+        }
+        .carComida{
+            width: 350px;
+            margin-left: 1rem;
+            font-size: 15px;
+            font-weight: 1000;
+        }
+    }
+
+    .historia{
+        width: 400px;
+        height: fit-content;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 3rem;
+        font-size: 15px;
+        p{
+            padding-left: 1rem;
+            width: 380px;
+        }
+        h1{
+            width: 400px;
+        }
+    }
+}

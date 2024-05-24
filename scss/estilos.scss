@@ -1,0 +1,22 @@
+@import "inicio";
+@import "reservas";
+@import "menu";
+@import "quienessomos";
+@import "contacto";
+@import "tablet";
+@import "phone1";
+@import "phone2";
+
+
+@font-face {
+    font-family: Rose Bud Sweet;
+    src: url(/Rose\ Bud\ Sweet.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}

@@ -1,0 +1,131 @@
+@media screen and (max-width:480px) {
+
+    .barra{
+        display: grid;
+        grid-template-columns: 100px auto;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "item4 item1"
+        "item4 item2";
+        .item1{
+            grid-area: item1;
+        }
+
+        .item2{
+            grid-area: item2;
+        }
+        .item3{
+            grid-area: item3;
+        }
+        .item4{
+            grid-area: item4;
+        }
+        .logo{
+            margin-left: 6rem;
+        }
+        .cartel{
+            font-size: 30px;
+            padding-right: 6rem;
+            width: 400px;
+        }
+        .menu{
+            display: none;
+        }
+        .dropdown{
+            display:inline;
+            padding-top: 3rem ;
+        }
+    }
+
+    .cartelera{
+        margin-left: 8rem;
+    }
+
+    .separador1{
+        display: none;
+    }
+
+    .car{
+        flex-direction: column;
+        .imgCartelera{
+            margin-left: 6rem;
+            width: 300px;
+            margin-top: 10px;
+        }
+        .imgCartelerasab {
+            width: 300px;
+            margin-left: 6rem;
+            margin-top: 10px;
+        }
+    }
+
+    .separador2{
+        display: none;
+    }
+
+    .barra2{
+        .redesBarra{
+            margin-left: 10rem;
+        }
+    }
+
+    .solicitud{
+        margin-left: 7rem;
+    }
+
+    .reservas{
+        flex-direction: column;
+        height: fit-content;
+        .formulario{
+            margin-left: -4rem;
+        }
+    }
+
+    #carouselExampleAutoplaying{
+        margin-left: 2rem;
+        width: 400px;
+    }   
+
+    .comida {
+        margin-left: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 1fr 1fr;
+        .carComida{
+            padding-left: 0rem;
+            padding-right: 0rem;
+            margin: 0 auto;
+            margin-top: 50px;
+            font-family: "Roboto Mono", monospace;
+            font-style: normal;
+            font-size: 15px;
+            font-weight: 1000;
+        }
+        .comidaIzquierda{
+            margin-top: 5rem;
+            margin-left: -10rem;
+        }
+        .comidaDerecha{
+            margin-left: -10rem; 
+        }
+    }
+
+    .historia{
+        width: 700px;
+        height: fit-content;
+        margin: 0 auto;
+        margin-top: 3rem;
+        font-size: 15px;
+        padding-right: 15rem;
+    }
+
+    .contacto{
+        h2{
+            font-weight: 500;
+            font-size: 20px;
+        }
+        h3{
+            font-weight: 400;
+            font-size: 15px;
+        }
+    }
+}

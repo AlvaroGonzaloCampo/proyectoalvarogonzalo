@@ -1,0 +1,121 @@
+@media screen and (max-width:768px) {
+
+    .barra{
+        display: grid;
+        grid-template-columns: 0.1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "item1 item2"
+        "item1 item3";
+
+        .item1{
+            grid-area: item1;
+        }
+        .item2{
+            grid-area: item2;
+        }
+        .item3{
+            grid-area: item3;
+        }
+        .item4{
+            grid-area: item4;
+        }
+        .logo {
+            width: 100px;
+            height: 100px ;
+        }
+        .cartel{
+            color: black;
+            font-weight: 110;
+            font-size: 30px;
+            width: 500px;
+            height: 50px;
+            text-align: center;
+        }
+        .menu{
+            width: fit-content;
+            height: 50px;
+            align-self: flex-end;
+            order: -1;
+            li {
+                padding: 0;
+                font-size: 15px;
+            }
+        }
+    }
+
+    .barra2{
+        .redesBarra{
+            margin-top: 40px;
+            margin-left: 25rem;
+        }
+    }
+
+    .cartelera {
+        width: 250px;
+        height: 150px;
+        margin-left: 33%;
+        margin-top: 2%;
+    }
+    .car{
+        .imgCartelera{
+            width: 200px;
+        }
+        .imgCartelerasab {
+            width: 150px;
+        }
+    }
+
+    .ubicacion{
+        iframe { 
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+    .reservas{
+        flex-direction: column;
+        width: 600px;
+        margin-top: 20px;
+        height: fit-content;
+        text-align: center;
+        align-items: center;
+        .formulario{
+            width: 620px;
+            height: fit-content;
+        }
+        .pergamino{
+            margin-top: 2rem;
+        }
+    }
+
+    #carouselExampleAutoplaying{
+        margin-left: 10rem;
+    }
+
+    .comida {
+        display: grid;
+        width: 600px;
+        height: fit-content;
+        margin-left: 100px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 1fr 1fr;
+        grid-template-areas: 
+        "area1"
+        "area3"
+        "area4";
+        .carComida{
+            padding-right: 0px;
+            padding-left: 0px;
+            margin-left: 0rem;
+        }
+        .comidaIzquierda{
+            margin-left: -7rem;
+            width: 600px;
+        }
+        .comidaDerecha{
+            margin-left: -7rem;
+            padding-right: 5rem;
+        }
+    }
+}

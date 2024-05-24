@@ -1,0 +1,67 @@
+main{
+    #carouselExampleAutoplaying{
+        width: 500px;
+        margin: 20px auto;
+    }
+
+    .comida {
+
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 1000px 1000px;
+        width: 90%;
+        height: fit-content;
+        margin-left: 100px;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.1fr 1fr;
+        grid-template-areas: 
+        "area1 area1"
+        "area3 area4";
+
+        .area1{
+            grid-area: area1;
+        }
+
+        .carComida{
+            padding-left: 20rem;
+            padding-right: 20rem;
+            margin: 0 auto;
+            margin-top: 50px;
+            text-align: center;
+            font-family: "Roboto Mono", monospace;
+            font-style: normal;
+            font-size: 15px;
+            font-weight: 1000;
+        }
+
+        .area3{
+            grid-area: area3;
+            .comidaIzquierda{
+                font-family: "Roboto Mono", monospace;
+                font-style: normal;
+                font-size: 15px;
+                font-weight: 1000;
+            }
+            .imgMenu{
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        .area4{
+            grid-area: area4;
+
+            .comidaDerecha {
+                font-family: "Roboto Mono", monospace;
+                font-style: normal;
+                font-size: 15px;
+                font-weight: 1000;
+            }
+            .imgMenu{
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+}

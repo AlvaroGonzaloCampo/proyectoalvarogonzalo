@@ -73,49 +73,55 @@
         }
     }
 
-    .reservas{
-        flex-direction: column;
-        width: 600px;
-        margin-top: 20px;
-        height: fit-content;
-        text-align: center;
-        align-items: center;
-        .formulario{
-            width: 620px;
-            height: fit-content;
+    main{
+        .solicitud {
+            margin-top: 5%;
+            margin-left: 35%;
         }
-        .pergamino{
-            margin-top: 2rem;
+        .reservas{
+            flex-direction: column;
+            width: 600px;
+            margin-top: 20px;
+            height: fit-content;
+            text-align: center;
+            align-items: center;
+                .formulario{
+                    width: 620px;
+                    height: fit-content;
+                }
+                .pergamino{
+                    margin-top: 2rem;
+                }
         }
     }
-
     #carouselExampleAutoplaying{
         margin-left: 10rem;
     }
-
-    .comida {
-        display: grid;
-        width: 600px;
-        height: fit-content;
-        margin-left: 100px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.1fr 1fr 1fr;
-        grid-template-areas: 
-        "area1"
-        "area3"
-        "area4";
-        .carComida{
-            padding-right: 0px;
-            padding-left: 0px;
-            margin-left: 0rem;
-        }
-        .comidaIzquierda{
-            margin-left: -7rem;
+    main{
+        .comida {
+            display: grid;
             width: 600px;
-        }
-        .comidaDerecha{
-            margin-left: -7rem;
-            padding-right: 5rem;
+            height: fit-content;
+            margin-left: 100px;
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.1fr 1fr 1fr;
+            grid-template-areas: 
+            "area1"
+            "area3"
+            "area4";
+            .carComida{
+                padding-right: 0px;
+                padding-left: 0px;
+                margin-left: 0rem;
+            }
+            .comidaIzquierda{
+                margin-left: -7rem;
+                width: 600px;
+            }
+            .comidaDerecha{
+                margin-left: -7rem;
+                padding-right: 5rem;
+            }
         }
     }
 }

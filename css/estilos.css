@@ -345,7 +345,11 @@ main .contacto a img {
     width: 300px;
     height: 300px;
   }
-  .reservas {
+  main .solicitud {
+    margin-top: 5%;
+    margin-left: 35%;
+  }
+  main .reservas {
     flex-direction: column;
     width: 600px;
     margin-top: 20px;
@@ -353,17 +357,17 @@ main .contacto a img {
     text-align: center;
     align-items: center;
   }
-  .reservas .formulario {
+  main .reservas .formulario {
     width: 620px;
     height: fit-content;
   }
-  .reservas .pergamino {
+  main .reservas .pergamino {
     margin-top: 2rem;
   }
   #carouselExampleAutoplaying {
     margin-left: 10rem;
   }
-  .comida {
+  main .comida {
     display: grid;
     width: 600px;
     height: fit-content;
@@ -372,16 +376,16 @@ main .contacto a img {
     grid-template-rows: 0.1fr 1fr 1fr;
     grid-template-areas: "area1" "area3" "area4";
   }
-  .comida .carComida {
+  main .comida .carComida {
     padding-right: 0px;
     padding-left: 0px;
     margin-left: 0rem;
   }
-  .comida .comidaIzquierda {
+  main .comida .comidaIzquierda {
     margin-left: -7rem;
     width: 600px;
   }
-  .comida .comidaDerecha {
+  main .comida .comidaDerecha {
     margin-left: -7rem;
     padding-right: 5rem;
   }

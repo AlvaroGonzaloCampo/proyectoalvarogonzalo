@@ -464,16 +464,17 @@ main .contacto a img {
   main .reservas .formulario {
     width: fit-content;
   }
-  #carouselExampleAutoplaying {
+  main #carouselExampleAutoplaying {
     margin-left: 2rem;
     width: 400px;
   }
-  .comida {
-    margin-left: 10px;
+  main .comida {
     grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 1fr 1fr;
+    width: 450px;
+    margin: 0;
   }
-  .comida .carComida {
+  main .comida .carComida {
     padding-left: 0rem;
     padding-right: 0rem;
     margin: 0 auto;
@@ -483,12 +484,14 @@ main .contacto a img {
     font-size: 15px;
     font-weight: 1000;
   }
-  .comida .comidaIzquierda {
+  main .comida .comidaIzquierda {
     margin-top: 5rem;
-    margin-left: -10rem;
+    width: 430px;
+    margin-left: 0;
   }
-  .comida .comidaDerecha {
-    margin-left: -10rem;
+  main .comida .comidaDerecha {
+    width: 430px;
+    margin-left: 0;
   }
   .historia {
     width: 700px;

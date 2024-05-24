@@ -453,15 +453,16 @@ main .contacto a img {
   .barra2 .redesBarra {
     margin-left: 10rem;
   }
-  .solicitud {
+  main .solicitud {
     margin-left: 7rem;
   }
-  .reservas {
+  main .reservas {
     flex-direction: column;
     height: fit-content;
+    width: 480px;
   }
-  .reservas .formulario {
-    margin-left: -4rem;
+  main .reservas .formulario {
+    width: fit-content;
   }
   #carouselExampleAutoplaying {
     margin-left: 2rem;

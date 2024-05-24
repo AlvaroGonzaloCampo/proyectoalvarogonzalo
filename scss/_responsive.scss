@@ -202,18 +202,19 @@
         }
     }
 
-    .solicitud{
-        margin-left: 7rem;
-    }
-
-    .reservas{
-        flex-direction: column;
-        height: fit-content;
-        .formulario{
-            margin-left: -4rem;
+    main{
+        .solicitud{
+            margin-left: 7rem;
+        }
+        .reservas{
+            flex-direction: column;
+            height: fit-content;
+            width: 480px;
+            .formulario{
+                width: fit-content;
+            }
         }
     }
-
     #carouselExampleAutoplaying{
         margin-left: 2rem;
         width: 400px;

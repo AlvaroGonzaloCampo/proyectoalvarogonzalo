@@ -1,5 +1,8 @@
 @media screen and (max-width:768px) {
+    
+    // BARRA DE NAVEGACION
     header{
+
         .barra{
             display: grid;
             grid-template-columns: 0.1fr 1fr;
@@ -44,35 +47,43 @@
             }
         }
     }
-    .barra2{
-        .redesBarra{
-            margin-top: 40px;
-            margin-left: 25rem;
-        }
-    }
 
-    .cartelera {
-        width: 250px;
-        height: 150px;
-        margin-left: 33%;
-        margin-top: 2%;
-    }
-    .car{
-        .imgCartelera{
-            width: 200px;
-        }
-        .imgCartelerasab {
-            width: 150px;
+    //FOOTER
+    footer{
+        .barra2{
+            .redesBarra{
+                margin-top: 40px;
+                margin-left: 25rem;
+            }
         }
     }
+    //SECCION DE CARTELERAS
+    main{
+        .cartelera {
+            width: 250px;
+            height: 150px;
+            margin-left: 33%;
+            margin-top: 2%;
+        }
+        .car{
+            .imgCartelera{
+                width: 200px;
+            }
+            .imgCartelerasab {
+                width: 150px;
+            }
+        }
 
-    .ubicacion{
-        iframe { 
-            width: 300px;
-            height: 300px;
+        //UBICACION
+
+        .ubicacion{
+            iframe { 
+                width: 100%;
+                height: 300px;
+            }
         }
     }
-
+        //PAGINA DE RESERVAS
     main{
         .solicitud {
             margin-top: 5%;
@@ -94,10 +105,12 @@
                 }
         }
     }
-    #carouselExampleAutoplaying{
-        margin-left: 10rem;
-    }
+
+    //PAGINA DE MENU
     main{
+        #carouselExampleAutoplaying{
+            margin-left: 10rem;
+        }
         .comida {
             display: grid;
             width: 600px;
@@ -128,6 +141,7 @@
 
 @media screen and (max-width:480px) {
 
+    // BARRA DE NAVEGACION
     header{
         .barra{
             display: grid;
@@ -170,38 +184,43 @@
             }
         }
     }
-    .cartelera{
-        margin-left: 8rem;
-    }
 
-    .separador1{
-        display: none;
-    }
-
-    .car{
-        flex-direction: column;
-        .imgCartelera{
-            margin-left: 6rem;
-            width: 300px;
-            margin-top: 10px;
+    //SECCION DE CARTELERAS
+    main{
+        .cartelera{
+            margin-left: 8rem;
         }
-        .imgCartelerasab {
-            width: 300px;
-            margin-left: 6rem;
-            margin-top: 10px;
+
+        .separador1{
+            display: none;
         }
-    }
 
-    .separador2{
-        display: none;
-    }
+        .car{
+            flex-direction: column;
+            .imgCartelera{
+                margin-left: 6rem;
+                width: 300px;
+                margin-top: 10px;
+            }
+            .imgCartelerasab {
+                width: 300px;
+                margin-left: 6rem;
+                margin-top: 10px;
+            }
+        }
 
-    .barra2{
-        .redesBarra{
-            margin-left: 10rem;
+        .separador2{
+            display: none;
         }
     }
 
+    footer{
+        .barra2{
+            .redesBarra{
+                margin-left: 10rem;
+            }
+        }
+    }
     main{
         .solicitud{
             margin-left: 7rem;
@@ -216,6 +235,7 @@
         }
     }
 
+    //PAGINA DE MENU
     main{
         #carouselExampleAutoplaying{
             margin-left: 2rem;
@@ -248,16 +268,18 @@
             }
         }
     }
-
-    .historia{
-        width: 700px;
-        height: fit-content;
-        margin: 0 auto;
-        margin-top: 3rem;
-        font-size: 15px;
-        padding-right: 15rem;
+    //QUIENES SOMOS
+    main{
+        .historia{
+            width: 450px;
+            height: fit-content;
+            margin: 0 auto;
+            margin-top: 3rem;
+            font-size: 15px;
+        }
     }
 
+    //PAGINA DE CONTACTO
     .contacto{
         h2{
             font-weight: 500;
@@ -271,12 +293,13 @@
 }
 
 @media screen and (max-width:400px) {
+
+    //BARRA DE NAVEGACION
     header{
         .barra{
-            .logo{
-                margin-left: 6rem;
-            }
+            grid-template-columns: 50px auto;
             .cartel{
+                
                 font-size: 30px;
                 width: 320px;
                 padding-right: 0rem;
@@ -293,12 +316,17 @@
             }
         }
     }
-    .barra2{
-        .redesBarra{
-            margin-left: 5rem;
+
+    //FOOTER
+    footer{
+        .barra2{
+            .redesBarra{
+                margin-left: 5rem;
+            }
         }
     }
 
+    main{
     .cartelera{
         margin-left: 5rem;
     }
@@ -321,58 +349,68 @@
     .separador2{
         display: none;
     }
-
-    .solicitud{
-        margin-left: 5rem;
     }
-    .reservas{
-        width: 300px;
-        flex-direction: column;
-        height: fit-content;
-        .formulario{
-            margin-left: 0rem;
-            font-size: 17px;
-            width: 300px;
+    main{
+        .solicitud{
+            margin-left: 20%;
         }
-        .pergamino{
-            width: 395px;
+        .reservas{
+            flex-direction: column;
+            height: fit-content;
+            width: 300px;
+
+            .formulario{
+                width: 300px;
+                margin-left: 0rem;
+                font-size: 17px;
+                width: 300px;
+            }
+            .pergamino{
+                width: 395px;
+            }
+        }
+    }
+    main{
+        #carouselExampleAutoplaying{
+            width: 350px;
+        }
+        .comida{
+            width: 300px;
+            .comidaIzquierda{
+                width: 300px;
+                margin: 0;
+                padding: 0;
+                margin-top: 3rem;
+            }
+            .comidaDerecha{
+                width: 300px;
+                margin: 0;
+                padding: 0;
+            }
+            .carComida{
+                width: 350px;
+                margin-left: 1rem;
+                font-size: 15px;
+                font-weight: 1000;
+            }
         }
     }
 
-    .comida{
-        width: 300px;
-        .comidaIzquierda{
-            width: 300px;
-            margin: 0;
+    main{
+        .historia{
+            width: 400px;
+            height: fit-content;
+            margin: 0 auto;
             padding: 0;
             margin-top: 3rem;
-        }
-        .comidaDerecha{
-            width: 300px;
-            margin: 0;
-            padding: 0;
-        }
-        .carComida{
-            width: 350px;
-            margin-left: 1rem;
             font-size: 15px;
-            font-weight: 1000;
-        }
-    }
-
-    .historia{
-        width: 400px;
-        height: fit-content;
-        margin: 0 auto;
-        padding: 0;
-        margin-top: 3rem;
-        font-size: 15px;
-        p{
-            padding-left: 1rem;
-            width: 380px;
-        }
-        h1{
-            width: 400px;
+            p{
+                padding-left: 1rem;
+                width: 380px;
+            }
+            h1{
+                width: 400px;
+            }
         }
     }
 }

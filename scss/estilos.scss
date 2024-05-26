@@ -1,10 +1,12 @@
+$color-barras: rgb(80, 24, 24);
+$fuente-general: "Poppins", sans-serif;
+
 @import "inicio";
 @import "reservas";
 @import "menu";
 @import "quienessomos";
 @import "contacto";
 @import "responsive";
-
 
 @font-face {
     font-family: Rose Bud Sweet;

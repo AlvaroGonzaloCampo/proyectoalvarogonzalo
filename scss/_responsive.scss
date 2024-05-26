@@ -326,30 +326,33 @@
         }
     }
 
+    //SECCION DE CARTELERAS
     main{
-    .cartelera{
-        margin-left: 5rem;
-    }
-    .car{
-        flex-direction: column;
-        .imgCartelera{
-            margin-left: 3rem;
-            width: 300px;
-            margin-top: 10px;
+        .cartelera{
+            margin-left: 5rem;
         }
-        .imgCartelerasab {
-            width: 300px;
-            margin-left: 3rem;
-            margin-top: 10px;
+        .car{
+            flex-direction: column;
+            .imgCartelera{
+                margin-left: 3rem;
+                width: 300px;
+                margin-top: 10px;
+            }
+            .imgCartelerasab {
+                width: 300px;
+                margin-left: 3rem;
+                margin-top: 10px;
+            }
+        }
+        .separador1{
+            display: none;
+        }
+        .separador2{
+            display: none;
         }
     }
-    .separador1{
-        display: none;
-    }
-    .separador2{
-        display: none;
-    }
-    }
+
+    //PAGINA DE RESERVAS
     main{
         .solicitud{
             margin-left: 20%;
@@ -370,6 +373,8 @@
             }
         }
     }
+
+    //PAGINA DE MENU
     main{
         #carouselExampleAutoplaying{
             width: 350px;
@@ -396,6 +401,7 @@
         }
     }
 
+    //QUIENES SOMOS
     main{
         .historia{
             width: 400px;

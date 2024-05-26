@@ -72,14 +72,14 @@ header{
 
 main{
 
-    .cartelera {
+    .tituloCarteleras {
         display: flex;
         width: 250px;
         height: 150px;
         margin: 0 auto;
     }
 
-    .car {
+    .carteleras {
         display: flex;
         margin: 50px 0;
         justify-content: space-evenly;
@@ -154,7 +154,7 @@ main{
 
 footer{
     
-    .barra2{
+    .barraInferior{
         display: grid;
         background-color: $color-barras;
         height: 150px;

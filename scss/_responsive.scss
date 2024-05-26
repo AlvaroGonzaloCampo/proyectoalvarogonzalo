@@ -50,7 +50,7 @@
 
     //FOOTER
     footer{
-        .barra2{
+        .barraInferior{
             .redesBarra{
                 margin-top: 40px;
                 margin-left: 25rem;
@@ -59,13 +59,13 @@
     }
     //SECCION DE CARTELERAS
     main{
-        .cartelera {
+        .tituloCarteleras {
             width: 250px;
             height: 150px;
             margin-left: 33%;
             margin-top: 2%;
         }
-        .car{
+        .carteleras{
             .imgCartelera{
                 width: 200px;
             }
@@ -85,7 +85,7 @@
     }
         //PAGINA DE RESERVAS
     main{
-        .solicitud {
+        .tituloReservas {
             margin-top: 5%;
             margin-left: 35%;
         }
@@ -187,7 +187,7 @@
 
     //SECCION DE CARTELERAS
     main{
-        .cartelera{
+        .tituloCarteleras{
             margin-left: 8rem;
         }
 
@@ -195,7 +195,7 @@
             display: none;
         }
 
-        .car{
+        .carteleras{
             flex-direction: column;
             .imgCartelera{
                 margin-left: 6rem;
@@ -215,14 +215,14 @@
     }
 
     footer{
-        .barra2{
+        .barraInferior{
             .redesBarra{
                 margin-left: 10rem;
             }
         }
     }
     main{
-        .solicitud{
+        .tituloReservas{
             margin-left: 7rem;
         }
         .reservas{
@@ -319,7 +319,7 @@
 
     //FOOTER
     footer{
-        .barra2{
+        .barraInferior{
             .redesBarra{
                 margin-left: 5rem;
             }
@@ -328,10 +328,10 @@
 
     //SECCION DE CARTELERAS
     main{
-        .cartelera{
+        .tituloCarteleras{
             margin-left: 5rem;
         }
-        .car{
+        .cartelras{
             flex-direction: column;
             .imgCartelera{
                 margin-left: 3rem;
@@ -354,7 +354,7 @@
 
     //PAGINA DE RESERVAS
     main{
-        .solicitud{
+        .tituloReservas{
             margin-left: 20%;
         }
         .reservas{

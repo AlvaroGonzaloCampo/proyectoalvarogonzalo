@@ -61,13 +61,13 @@ header .barra .dropdown img {
   height: 30px;
 }
 
-main .cartelera {
+main .tituloCarteleras {
   display: flex;
   width: 250px;
   height: 150px;
   margin: 0 auto;
 }
-main .car {
+main .carteleras {
   display: flex;
   margin: 50px 0;
   justify-content: space-evenly;
@@ -133,7 +133,7 @@ main .subir {
   border-color: black;
 }
 
-footer .barra2 {
+footer .barraInferior {
   display: grid;
   background-color: rgb(80, 24, 24);
   height: 150px;
@@ -143,31 +143,31 @@ footer .barra2 {
   grid-template-areas: "item5 item6";
   align-items: center;
 }
-footer .barra2 .logo2 {
+footer .barraInferior .logo2 {
   width: 140px;
   height: 130px;
 }
-footer .barra2 .item5 {
+footer .barraInferior .item5 {
   grid-area: "item5";
 }
-footer .barra2 .redesBarra p {
+footer .barraInferior .redesBarra p {
   font-size: 20px;
   color: white;
   text-align: center;
   margin-left: -25px;
   font-family: "Poppins", sans-serif;
 }
-footer .barra2 .redesBarra a img {
+footer .barraInferior .redesBarra a img {
   margin-top: 5px;
   width: 30px;
   height: 30px;
 }
-footer .barra2 .item6 {
+footer .barraInferior .item6 {
   justify-self: center;
   grid-area: "item6";
 }
 
-main .solicitud {
+main .tituloReservas {
   margin-left: 40%;
   font-size: 30px;
   width: 250px;
@@ -326,27 +326,27 @@ main .contacto a img {
     padding: 0;
     font-size: 15px;
   }
-  footer .barra2 .redesBarra {
+  footer .barraInferior .redesBarra {
     margin-top: 40px;
     margin-left: 25rem;
   }
-  main .cartelera {
+  main .tituloCarteleras {
     width: 250px;
     height: 150px;
     margin-left: 33%;
     margin-top: 2%;
   }
-  main .car .imgCartelera {
+  main .carteleras .imgCartelera {
     width: 200px;
   }
-  main .car .imgCartelerasab {
+  main .carteleras .imgCartelerasab {
     width: 150px;
   }
   main .ubicacion iframe {
     width: 100%;
     height: 300px;
   }
-  main .solicitud {
+  main .tituloReservas {
     margin-top: 5%;
     margin-left: 35%;
   }
@@ -429,21 +429,21 @@ main .contacto a img {
     text-decoration: none;
     color: black;
   }
-  main .cartelera {
+  main .tituloCarteleras {
     margin-left: 8rem;
   }
   main .separador1 {
     display: none;
   }
-  main .car {
+  main .carteleras {
     flex-direction: column;
   }
-  main .car .imgCartelera {
+  main .carteleras .imgCartelera {
     margin-left: 6rem;
     width: 300px;
     margin-top: 10px;
   }
-  main .car .imgCartelerasab {
+  main .carteleras .imgCartelerasab {
     width: 300px;
     margin-left: 6rem;
     margin-top: 10px;
@@ -451,10 +451,10 @@ main .contacto a img {
   main .separador2 {
     display: none;
   }
-  footer .barra2 .redesBarra {
+  footer .barraInferior .redesBarra {
     margin-left: 10rem;
   }
-  main .solicitud {
+  main .tituloReservas {
     margin-left: 7rem;
   }
   main .reservas {
@@ -529,21 +529,21 @@ main .contacto a img {
     text-decoration: none;
     color: black;
   }
-  footer .barra2 .redesBarra {
+  footer .barraInferior .redesBarra {
     margin-left: 5rem;
   }
-  main .cartelera {
+  main .tituloCarteleras {
     margin-left: 5rem;
   }
-  main .car {
+  main .cartelras {
     flex-direction: column;
   }
-  main .car .imgCartelera {
+  main .cartelras .imgCartelera {
     margin-left: 3rem;
     width: 300px;
     margin-top: 10px;
   }
-  main .car .imgCartelerasab {
+  main .cartelras .imgCartelerasab {
     width: 300px;
     margin-left: 3rem;
     margin-top: 10px;
@@ -554,7 +554,7 @@ main .contacto a img {
   main .separador2 {
     display: none;
   }
-  main .solicitud {
+  main .tituloReservas {
     margin-left: 20%;
   }
   main .reservas {

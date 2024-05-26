@@ -78,6 +78,10 @@ main .imgCartelera {
   border-color: rgb(80, 24, 24);
   border-style: solid;
 }
+main .imgCartelera:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
 main .separador1 {
   background-image: url(../images/separador1.jpg);
   background-repeat: no-repeat;

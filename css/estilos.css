@@ -61,6 +61,15 @@ header .barra .dropdown img {
   height: 30px;
 }
 
+main .imginicio {
+  margin-top: -7.5px;
+  background-image: url(../images/imageninicio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 38rem;
+}
 main .tituloCarteleras {
   display: flex;
   width: 250px;
@@ -433,6 +442,9 @@ main .contacto a img {
     text-decoration: none;
     color: black;
   }
+  main .imginicio {
+    display: none;
+  }
   main .tituloCarteleras {
     margin-left: 8rem;
   }
@@ -535,6 +547,9 @@ main .contacto a img {
   }
   footer .barraInferior .redesBarra {
     margin-left: 5rem;
+  }
+  main .imginicio {
+    display: none;
   }
   main .tituloCarteleras {
     margin-left: 5rem;

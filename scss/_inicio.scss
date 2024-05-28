@@ -72,6 +72,16 @@ header{
 
 main{
 
+    .imginicio{
+        margin-top: -7.5px;
+        background-image: url(../images/imageninicio.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100vw;
+        height: 38rem;
+        
+    }
     .tituloCarteleras {
         display: flex;
         width: 250px;

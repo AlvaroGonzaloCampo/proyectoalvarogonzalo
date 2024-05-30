@@ -75,12 +75,7 @@ main{
     .imginicio{
         margin-top: -7.5px;
         background-image: url(../images/imageninicio.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        width: 100vw;
-        height: 38rem;
-        
+        @include separadoresgral (no-repeat, cover, fixed, 100vw, 38rem)
     }
     .tituloCarteleras {
         display: flex;
@@ -108,10 +103,7 @@ main{
 
     .separador1{
         background-image: url(../images/separador1.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        height: $tamaño-separadores ;
+        @include separadoresgral (no-repeat, cover, fixed, 100vw, $tamaño-separadores)
     }
 
     .imgCartelerasab {
@@ -134,10 +126,7 @@ main{
 
         .separador2{
             background-image: url(../images/separador2.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
-            height: $tamaño-separadores ;
+            @include separadoresgral (no-repeat, cover, fixed, 100vw, $tamaño-separadores)
         }
         .encontrarnos{
             width: 230px;

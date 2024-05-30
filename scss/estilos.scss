@@ -1,7 +1,4 @@
-$color-barras: rgb(80, 24, 24);
-$fuente-general: "Poppins", sans-serif;
-$tamaño-separadores: 350px;
-
+@import "variables";
 @import "inicio";
 @import "reservas";
 @import "menu";

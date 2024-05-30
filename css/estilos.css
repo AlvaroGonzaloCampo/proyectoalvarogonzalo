@@ -96,6 +96,7 @@ main .separador1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  width: 100vw;
   height: 350px;
 }
 main .imgCartelerasab {
@@ -120,6 +121,7 @@ main .ubicacion .separador2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  width: 100vw;
   height: 350px;
 }
 main .ubicacion .encontrarnos {

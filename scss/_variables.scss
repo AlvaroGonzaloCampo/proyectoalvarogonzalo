@@ -1,0 +1,11 @@
+$color-barras: rgb(80, 24, 24);
+$fuente-general: "Poppins", sans-serif;
+$tamaño-separadores: 350px;
+
+@mixin separadoresgral ($repeat, $size, $attachment, $width, $height ){
+    background-repeat: $repeat;
+    background-size: $size;
+    background-attachment: $attachment;
+    width: $width;
+    height: $height;
+}

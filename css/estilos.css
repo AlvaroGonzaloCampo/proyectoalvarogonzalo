@@ -82,7 +82,7 @@ main .carteleras {
   justify-content: space-evenly;
 }
 main .imgCartelera {
-  width: 300px;
+  width: 17rem;
   border-radius: 5px;
   border-color: rgb(80, 24, 24);
   border-style: solid;
@@ -100,7 +100,7 @@ main .separador1 {
   height: 350px;
 }
 main .imgCartelerasab {
-  width: 300px;
+  width: 17rem;
   border-radius: 5px;
   border-color: rgb(80, 24, 24);
   border-style: solid;
@@ -196,9 +196,15 @@ main .reservas {
 }
 main .reservas .formulario {
   width: 600px;
-  height: 500px;
+  height: fit-content;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
+}
+main .reservas .formulario input {
+  margin-top: 20px;
+}
+main .reservas .formulario label {
+  margin-top: 20px;
 }
 main .reservas .pergamino {
   width: 469px;
@@ -458,11 +464,11 @@ main .contacto a img {
   }
   main .carteleras .imgCartelera {
     margin-left: 6rem;
-    width: 300px;
+    width: 17rem;
     margin-top: 10px;
   }
   main .carteleras .imgCartelerasab {
-    width: 300px;
+    width: 17rem;
     margin-left: 6rem;
     margin-top: 10px;
   }
@@ -561,11 +567,11 @@ main .contacto a img {
   }
   main .carteleras .imgCartelera {
     margin-left: 3rem;
-    width: 300px;
+    width: 17rem;
     margin-top: 10px;
   }
   main .carteleras .imgCartelerasab {
-    width: 300px;
+    width: 17rem;
     margin-left: 3rem;
     margin-top: 10px;
   }

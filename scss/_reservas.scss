@@ -15,9 +15,15 @@ main{
         
         .formulario {
             width: 600px;
-            height: 500px;
+            height: fit-content;
             font-size: 20px;
             font-family: $fuente-general;
+            input{
+                margin-top: 20px;
+            }
+            label{
+                margin-top: 20px;
+            }
         }
         .pergamino{
             width: 469px;

@@ -435,6 +435,7 @@ main .contacto a img {
     margin-left: 6rem;
   }
   header .barra .cartel {
+    color: white;
     font-size: 30px;
     padding-right: 6rem;
     width: 400px;
@@ -539,6 +540,7 @@ main .contacto a img {
     grid-template-columns: 50px auto;
   }
   header .barra .cartel {
+    color: white;
     font-size: 30px;
     width: 320px;
     padding-right: 0rem;

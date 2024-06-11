@@ -4,7 +4,8 @@ body {
   margin: 0;
   padding: 0;
 }
-body header .barra {
+
+header .barra {
   display: flex;
   background-color: rgb(80, 24, 24);
   height: 150px;
@@ -12,12 +13,12 @@ body header .barra {
   margin-bottom: -0.5rem;
   max-width: 100%;
 }
-body header .barra .logo {
+header .barra .logo {
   position: relative;
   width: 140px;
   height: 130px;
 }
-body header .barra .cartel {
+header .barra .cartel {
   align-self: center;
   align-self: flex;
   color: black;
@@ -27,11 +28,11 @@ body header .barra .cartel {
   font-family: "Cinzel", serif;
   position: relative;
 }
-body header .barra ul a {
+header .barra ul a {
   text-decoration: none;
   color: white;
 }
-body header .barra ul.menu li {
+header .barra ul.menu li {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -41,25 +42,26 @@ body header .barra ul.menu li {
   border-radius: 10px;
   padding: 5px;
 }
-body header .barra ul.menu li:hover {
+header .barra ul.menu li:hover {
   background-color: black;
   transition: 0.5s;
 }
-body header .barra .menu {
+header .barra .menu {
   align-self: flex-end;
 }
-body header .barra .dropdown {
+header .barra .dropdown {
   display: none;
 }
-body header .barra .dropdown #botonMenu {
+header .barra .dropdown #botonMenu {
   background-color: transparent;
   border-style: none;
 }
-body header .barra .dropdown img {
+header .barra .dropdown img {
   width: 30px;
   height: 30px;
 }
-body main .imginicio {
+
+main .imginicio {
   background-image: url(../images/imageninicio.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,29 +69,29 @@ body main .imginicio {
   max-width: 100%;
   height: 46rem;
 }
-body main .tituloCarteleras {
+main .tituloCarteleras {
   display: flex;
   width: 250px;
   height: 150px;
   margin: 0 auto;
 }
-body main .carteleras {
+main .carteleras {
   display: flex;
   margin: 50px 0;
   justify-content: space-evenly;
   max-width: 100%;
 }
-body main .imgCartelera {
+main .imgCartelera {
   width: 17rem;
   border-radius: 5px;
   border-color: rgb(80, 24, 24);
   border-style: solid;
 }
-body main .imgCartelera:hover {
+main .imgCartelera:hover {
   transform: scale(1.1);
   transition: 0.5s;
 }
-body main .separador1 {
+main .separador1 {
   background-image: url(../images/separador1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -97,17 +99,17 @@ body main .separador1 {
   max-width: 100%;
   height: 350px;
 }
-body main .imgCartelerasab {
+main .imgCartelerasab {
   width: 17rem;
   border-radius: 5px;
   border-color: rgb(80, 24, 24);
   border-style: solid;
 }
-body main .imgCartelerasab:hover {
+main .imgCartelerasab:hover {
   transform: scale(1.1);
   transition: 0.5s;
 }
-body main .ubicacion {
+main .ubicacion {
   margin-top: 3rem;
   font-size: 40px;
   font-family: "Roboto Mono", monospace;
@@ -115,7 +117,7 @@ body main .ubicacion {
   text-align: center;
   max-width: 100%;
 }
-body main .ubicacion .separador2 {
+main .ubicacion .separador2 {
   background-image: url(../images/separador2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -123,16 +125,16 @@ body main .ubicacion .separador2 {
   max-width: 100%;
   height: 350px;
 }
-body main .ubicacion .encontrarnos {
+main .ubicacion .encontrarnos {
   width: 230px;
   height: 150px;
 }
-body main .ubicacion iframe {
+main .ubicacion iframe {
   margin-top: 2rem;
   max-width: 100%;
   height: 300px;
 }
-body main .subir {
+main .subir {
   width: 50px;
   height: 50px;
   margin-left: 5rem;
@@ -146,7 +148,8 @@ body main .subir {
   border-style: solid;
   border-color: black;
 }
-body footer .barraInferior {
+
+footer .barraInferior {
   display: grid;
   background-color: rgb(80, 24, 24);
   height: 150px;
@@ -157,26 +160,26 @@ body footer .barraInferior {
   align-items: center;
   max-width: 100%;
 }
-body footer .barraInferior .logo2 {
+footer .barraInferior .logo2 {
   width: 140px;
   height: 130px;
 }
-body footer .barraInferior .item5 {
+footer .barraInferior .item5 {
   grid-area: "item5";
 }
-body footer .barraInferior .redesBarra p {
+footer .barraInferior .redesBarra p {
   font-size: 20px;
   color: white;
   text-align: center;
   margin-left: -25px;
   font-family: "Poppins", sans-serif;
 }
-body footer .barraInferior .redesBarra a img {
+footer .barraInferior .redesBarra a img {
   margin-top: 5px;
   width: 30px;
   height: 30px;
 }
-body footer .barraInferior .item6 {
+footer .barraInferior .item6 {
   justify-self: center;
   grid-area: "item6";
 }

@@ -3,178 +3,178 @@ body {
     max-width: 100%;
     margin: 0;
     padding: 0;
-    header{
-        .barra {
-            display: flex;
-            background-color: $color-barras;
-            height: 150px;
-            justify-content: space-around;
-            margin-bottom: -.5rem;
-            max-width: 100%;
-            .logo{
-                position: relative;
-                width: 140px ;
-                height: 130px ;
-            }
-            .cartel{
-                align-self: center;
-                align-self: flex;
-                color: black;
-                font-weight: 110;
-                font-size: 40px;
-                font-style: normal;
-                font-family: "Cinzel", serif;
-                position: relative;
-            }
-            ul a {
-                text-decoration: none;
-                color: white;
-            }
-            ul.menu li {
-                font-family: $fuente-general;
-                font-weight: 600;
-                font-style: normal;
-                display: inline-block; 
-                margin-right: 20px;
-                text-decoration: none;
-                border-radius: 10px;
-                padding: 5px;
-                &:hover{
-                    background-color: black;
-                    transition: .5s;
-                }
-            }
-            .menu {
-                align-self:flex-end ;
-            }
-            .dropdown{
-                display: none;
-                #botonMenu {
-                    background-color: transparent;
-                    border-style: none;
-                }
-                img{
-                    width: 30px;
-                    height: 30px;
-                }
-            }
+}
+header{
+    .barra {
+        display: flex;
+        background-color: $color-barras;
+        height: 150px;
+        justify-content: space-around;
+        margin-bottom: -.5rem;
+        max-width: 100%;
+        .logo{
+            position: relative;
+            width: 140px ;
+            height: 130px ;
         }
-    }
-    main{
-        .imginicio{
-            background-image: url(../images/imageninicio.jpg);
-            @include separadoresgral (no-repeat, cover, fixed, 100%, 46rem)
+        .cartel{
+            align-self: center;
+            align-self: flex;
+            color: black;
+            font-weight: 110;
+            font-size: 40px;
+            font-style: normal;
+            font-family: "Cinzel", serif;
+            position: relative;
         }
-        .tituloCarteleras {
-            display: flex;
-            width: 250px;
-            height: 150px;
-            margin: 0 auto;
+        ul a {
+            text-decoration: none;
+            color: white;
         }
-        .carteleras {
-            display: flex;
-            margin: 50px 0;
-            justify-content: space-evenly;
-            max-width: 100%;
-        }
-        .imgCartelera{
-            width: 17rem;
-            border-radius: 5px;
-            border-color: rgb(80, 24, 24);
-            border-style: solid;
-            &:hover {
-                transform: scale(1.1);
+        ul.menu li {
+            font-family: $fuente-general;
+            font-weight: 600;
+            font-style: normal;
+            display: inline-block; 
+            margin-right: 20px;
+            text-decoration: none;
+            border-radius: 10px;
+            padding: 5px;
+            &:hover{
+                background-color: black;
                 transition: .5s;
             }
         }
-        .separador1{
-            background-image: url(../images/separador1.jpg);
+        .menu {
+            align-self:flex-end ;
+        }
+        .dropdown{
+            display: none;
+            #botonMenu {
+                background-color: transparent;
+                border-style: none;
+            }
+            img{
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}
+main{
+    .imginicio{
+        background-image: url(../images/imageninicio.jpg);
+        @include separadoresgral (no-repeat, cover, fixed, 100%, 46rem)
+    }
+    .tituloCarteleras {
+        display: flex;
+        width: 250px;
+        height: 150px;
+        margin: 0 auto;
+    }
+    .carteleras {
+        display: flex;
+        margin: 50px 0;
+        justify-content: space-evenly;
+        max-width: 100%;
+    }
+    .imgCartelera{
+        width: 17rem;
+        border-radius: 5px;
+        border-color: rgb(80, 24, 24);
+        border-style: solid;
+        &:hover {
+            transform: scale(1.1);
+            transition: .5s;
+        }
+    }
+    .separador1{
+        background-image: url(../images/separador1.jpg);
+        @include separadoresgral (no-repeat, cover, fixed, 100%, $tamaño-separadores)
+    }
+    .imgCartelerasab {
+        width: 17rem;
+        border-radius: 5px;
+        border-color: rgb(80, 24, 24);
+        border-style: solid;
+        &:hover {
+            transform: scale(1.1);
+            transition: .5s;
+        }
+    }
+    .ubicacion{
+        margin-top: 3rem;
+        font-size: 40px;
+        font-family: "Roboto Mono", monospace;
+        font-style: normal;
+        text-align: center;
+        max-width: 100%;
+        .separador2{
+            background-image: url(../images/separador2.jpg);
             @include separadoresgral (no-repeat, cover, fixed, 100%, $tamaño-separadores)
         }
-        .imgCartelerasab {
-            width: 17rem;
-            border-radius: 5px;
-            border-color: rgb(80, 24, 24);
-            border-style: solid;
-            &:hover {
-                transform: scale(1.1);
-                transition: .5s;
-            }
+        .encontrarnos{
+            width: 230px;
+            height: 150px;
         }
-        .ubicacion{
-            margin-top: 3rem;
-            font-size: 40px;
-            font-family: "Roboto Mono", monospace;
-            font-style: normal;
-            text-align: center;
+        iframe {
+            margin-top: 2rem;
             max-width: 100%;
-            .separador2{
-                background-image: url(../images/separador2.jpg);
-                @include separadoresgral (no-repeat, cover, fixed, 100%, $tamaño-separadores)
-            }
-            .encontrarnos{
-                width: 230px;
-                height: 150px;
-            }
-            iframe {
-                margin-top: 2rem;
-                max-width: 100%;
-                height: 300px;
-            }
-        }
-        .subir {
-            width: 50px;
-            height: 50px;
-            margin-left: 5rem;
-            margin-top: 1rem ;
-            margin-bottom: 2rem;
-            padding-left: 5px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            padding-right: 2px;
-            border-radius: 50px;
-            border-style: solid;
-            border-color: black;
+            height: 300px;
         }
     }
-    footer{
-        .barraInferior{
-            display: grid;
-            background-color: $color-barras;
-            height: 150px;
-            max-width: 100%;
-            grid-template-columns: 0.1fr 1fr;
-            grid-template-rows: 1fr;
-            grid-template-areas: 
-            "item5 item6";
-            align-items: center;
-            max-width: 100%;
-            .logo2{
-                width: 140px ;
-                height: 130px ;
+    .subir {
+        width: 50px;
+        height: 50px;
+        margin-left: 5rem;
+        margin-top: 1rem ;
+        margin-bottom: 2rem;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 2px;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: black;
+    }
+}
+footer{
+    .barraInferior{
+        display: grid;
+        background-color: $color-barras;
+        height: 150px;
+        max-width: 100%;
+        grid-template-columns: 0.1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "item5 item6";
+        align-items: center;
+        max-width: 100%;
+        .logo2{
+            width: 140px ;
+            height: 130px ;
+        }
+
+        .item5{
+            grid-area: "item5";
+        }
+        .redesBarra{
+            p{
+                font-size: 20px;
+                color: white;
+                text-align: center;
+                margin-left: -25px;
+                font-family: $fuente-general;
             }
-    
-            .item5{
-                grid-area: "item5";
+            a img{
+                margin-top: 5px;
+                width: 30px;
+                height: 30px;
             }
-            .redesBarra{
-                p{
-                    font-size: 20px;
-                    color: white;
-                    text-align: center;
-                    margin-left: -25px;
-                    font-family: $fuente-general;
-                }
-                a img{
-                    margin-top: 5px;
-                    width: 30px;
-                    height: 30px;
-                }
-            }
-            .item6{
-                justify-self: center;
-                grid-area: "item6";
-            }
+        }
+        .item6{
+            justify-self: center;
+            grid-area: "item6";
         }
     }
 }

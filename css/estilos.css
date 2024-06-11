@@ -603,6 +603,9 @@ main .contacto a img {
     font-size: 17px;
     width: 300px;
   }
+  main .reservas .formulario div li {
+    text-align: left;
+  }
   main .reservas .pergamino {
     width: 395px;
   }

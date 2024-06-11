@@ -63,7 +63,7 @@ body {
     main{
         .imginicio{
             background-image: url(../images/imageninicio.jpg);
-            @include separadoresgral (no-repeat, cover, fixed, 100%, 42rem)
+            @include separadoresgral (no-repeat, cover, fixed, 100%, 46rem)
         }
         .tituloCarteleras {
             display: flex;

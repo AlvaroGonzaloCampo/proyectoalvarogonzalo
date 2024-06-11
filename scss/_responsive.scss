@@ -1,8 +1,6 @@
 @media screen and (max-width:768px) {
-    
     // BARRA DE NAVEGACION
     header{
-
         .barra{
             display: grid;
             grid-template-columns: 0.1fr 1fr;
@@ -10,7 +8,6 @@
             grid-template-areas: 
             "item1 item2"
             "item1 item3";
-
             .item1{
                 grid-area: item1;
             }
@@ -47,7 +44,6 @@
             }
         }
     }
-
     //FOOTER
     footer{
         .barraInferior{
@@ -73,9 +69,7 @@
                 width: 150px;
             }
         }
-
         //UBICACION
-
         .ubicacion{
             iframe { 
                 width: 100%;
@@ -105,7 +99,6 @@
                 }
         }
     }
-
     //PAGINA DE MENU
     main{
         #carouselExampleAutoplaying{
@@ -138,7 +131,6 @@
         }
     }
 }
-
 @media screen and (max-width:480px) {
 
     // BARRA DE NAVEGACION
@@ -153,7 +145,6 @@
             .item1{
                 grid-area: item1;
             }
-
             .item2{
                 grid-area: item2;
             }
@@ -185,21 +176,17 @@
             }
         }
     }
-
     //SECCION DE CARTELERAS
     main{
-
         .imginicio{
             display: none;
         }
         .tituloCarteleras{
             margin-left: 8rem;
         }
-
         .separador1{
             display: none;
         }
-
         .carteleras{
             flex-direction: column;
             .imgCartelera{
@@ -213,12 +200,10 @@
                 margin-top: 10px;
             }
         }
-
         .separador2{
             display: none;
         }
     }
-
     footer{
         .barraInferior{
             .redesBarra{
@@ -239,14 +224,12 @@
             }
         }
     }
-
     //PAGINA DE MENU
     main{
         #carouselExampleAutoplaying{
             margin-left: 2rem;
             width: 400px;
         }   
-
         .comida {
             grid-template-columns: 1fr;
             grid-template-rows: 0.1fr 1fr 1fr;
@@ -283,7 +266,6 @@
             font-size: 15px;
         }
     }
-
     //PAGINA DE CONTACTO
     .contacto{
         h2{
@@ -296,9 +278,7 @@
         }
     }
 }
-
 @media screen and (max-width:400px) {
-
     //BARRA DE NAVEGACION
     header{
         .barra{
@@ -321,7 +301,6 @@
             }
         }
     }
-
     //FOOTER
     footer{
         .barraInferior{
@@ -330,10 +309,8 @@
             }
         }
     }
-
     //SECCION DE CARTELERAS
     main{
-
         .imginicio{
             display: none;
         }
@@ -360,7 +337,6 @@
             display: none;
         }
     }
-
     //PAGINA DE RESERVAS
     main{
         .tituloReservas{
@@ -387,7 +363,6 @@
             }
         }
     }
-
     //PAGINA DE MENU
     main{
         #carouselExampleAutoplaying{
@@ -414,7 +389,6 @@
             }
         }
     }
-
     //QUIENES SOMOS
     main{
         .historia{

@@ -13,6 +13,7 @@ header{
         height: 150px;
         width: 100vw;
         justify-content: space-around;
+        margin-bottom: -.5rem;
         .logo{
             position: relative;
             width: 140px ;
@@ -73,7 +74,6 @@ header{
 main{
 
     .imginicio{
-        margin-top: -7.5px;
         background-image: url(../images/imageninicio.jpg);
         @include separadoresgral (no-repeat, cover, fixed, 100vw, 38rem)
     }

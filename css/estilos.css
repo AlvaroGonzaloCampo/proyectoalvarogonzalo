@@ -12,6 +12,7 @@ header .barra {
   height: 150px;
   width: 100vw;
   justify-content: space-around;
+  margin-bottom: -0.5rem;
 }
 header .barra .logo {
   position: relative;
@@ -62,7 +63,6 @@ header .barra .dropdown img {
 }
 
 main .imginicio {
-  margin-top: -7.5px;
   background-image: url(../images/imageninicio.jpg);
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,25 +1,23 @@
 body {
   background-image: url(../images/Fondopagina.jpg);
-  height: 100vh;
-  width: 100vw;
+  max-width: 100%;
   margin: 0;
   padding: 0;
 }
-
-header .barra {
+body header .barra {
   display: flex;
   background-color: rgb(80, 24, 24);
   height: 150px;
-  width: 100vw;
   justify-content: space-around;
   margin-bottom: -0.5rem;
+  max-width: 100%;
 }
-header .barra .logo {
+body header .barra .logo {
   position: relative;
   width: 140px;
   height: 130px;
 }
-header .barra .cartel {
+body header .barra .cartel {
   align-self: center;
   align-self: flex;
   color: black;
@@ -29,11 +27,11 @@ header .barra .cartel {
   font-family: "Cinzel", serif;
   position: relative;
 }
-header .barra ul a {
+body header .barra ul a {
   text-decoration: none;
   color: white;
 }
-header .barra ul.menu li {
+body header .barra ul.menu li {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -43,97 +41,98 @@ header .barra ul.menu li {
   border-radius: 10px;
   padding: 5px;
 }
-header .barra ul.menu li:hover {
+body header .barra ul.menu li:hover {
   background-color: black;
   transition: 0.5s;
 }
-header .barra .menu {
+body header .barra .menu {
   align-self: flex-end;
 }
-header .barra .dropdown {
+body header .barra .dropdown {
   display: none;
 }
-header .barra .dropdown #botonMenu {
+body header .barra .dropdown #botonMenu {
   background-color: transparent;
   border-style: none;
 }
-header .barra .dropdown img {
+body header .barra .dropdown img {
   width: 30px;
   height: 30px;
 }
-
-main .imginicio {
+body main .imginicio {
   background-image: url(../images/imageninicio.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  width: 100vw;
-  height: 38rem;
+  max-width: 100%;
+  height: 42rem;
 }
-main .tituloCarteleras {
+body main .tituloCarteleras {
   display: flex;
   width: 250px;
   height: 150px;
   margin: 0 auto;
 }
-main .carteleras {
+body main .carteleras {
   display: flex;
   margin: 50px 0;
   justify-content: space-evenly;
+  max-width: 100%;
 }
-main .imgCartelera {
+body main .imgCartelera {
   width: 17rem;
   border-radius: 5px;
   border-color: rgb(80, 24, 24);
   border-style: solid;
 }
-main .imgCartelera:hover {
+body main .imgCartelera:hover {
   transform: scale(1.1);
   transition: 0.5s;
 }
-main .separador1 {
+body main .separador1 {
   background-image: url(../images/separador1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  width: 100vw;
+  max-width: 100%;
   height: 350px;
 }
-main .imgCartelerasab {
+body main .imgCartelerasab {
   width: 17rem;
   border-radius: 5px;
   border-color: rgb(80, 24, 24);
   border-style: solid;
 }
-main .imgCartelerasab:hover {
+body main .imgCartelerasab:hover {
   transform: scale(1.1);
   transition: 0.5s;
 }
-main .ubicacion {
+body main .ubicacion {
   margin-top: 3rem;
   font-size: 40px;
   font-family: "Roboto Mono", monospace;
   font-style: normal;
   text-align: center;
+  max-width: 100%;
 }
-main .ubicacion .separador2 {
+body main .ubicacion .separador2 {
   background-image: url(../images/separador2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  width: 100vw;
+  max-width: 100%;
   height: 350px;
 }
-main .ubicacion .encontrarnos {
+body main .ubicacion .encontrarnos {
   width: 230px;
   height: 150px;
 }
-main .ubicacion iframe {
+body main .ubicacion iframe {
   margin-top: 2rem;
-  width: 100vw;
+  max-width: 100%;
   height: 300px;
 }
-main .subir {
+body main .subir {
   width: 50px;
   height: 50px;
   margin-left: 5rem;
@@ -147,37 +146,37 @@ main .subir {
   border-style: solid;
   border-color: black;
 }
-
-footer .barraInferior {
+body footer .barraInferior {
   display: grid;
   background-color: rgb(80, 24, 24);
   height: 150px;
-  width: 100vw;
+  max-width: 100%;
   grid-template-columns: 0.1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "item5 item6";
   align-items: center;
+  max-width: 100%;
 }
-footer .barraInferior .logo2 {
+body footer .barraInferior .logo2 {
   width: 140px;
   height: 130px;
 }
-footer .barraInferior .item5 {
+body footer .barraInferior .item5 {
   grid-area: "item5";
 }
-footer .barraInferior .redesBarra p {
+body footer .barraInferior .redesBarra p {
   font-size: 20px;
   color: white;
   text-align: center;
   margin-left: -25px;
   font-family: "Poppins", sans-serif;
 }
-footer .barraInferior .redesBarra a img {
+body footer .barraInferior .redesBarra a img {
   margin-top: 5px;
   width: 30px;
   height: 30px;
 }
-footer .barraInferior .item6 {
+body footer .barraInferior .item6 {
   justify-self: center;
   grid-area: "item6";
 }

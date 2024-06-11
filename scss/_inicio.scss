@@ -64,7 +64,7 @@ header{
 main{
     .imginicio{
         background-image: url(../images/imageninicio.jpg);
-        @include separadoresgral (no-repeat, cover, fixed, 100%, 46rem)
+        @include separadoresgral (no-repeat, cover, fixed, 100%, 50rem)
     }
     .tituloCarteleras {
         display: flex;

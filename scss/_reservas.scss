@@ -1,18 +1,15 @@
 main{
-
     .tituloReservas {
         margin-left: 40%;
         font-size: 30px;
         width: 250px;
     }
-
     .reservas{
         display: flex;
         margin: 0 auto;
         margin-top: 20px;
         width: 1000px;
         height: 1000px;
-        
         .formulario {
             width: 600px;
             height: fit-content;
@@ -30,5 +27,4 @@ main{
             height: 649px;
         }
     }
-
 }

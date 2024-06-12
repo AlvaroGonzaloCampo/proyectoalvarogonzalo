@@ -197,6 +197,7 @@ main .reservas {
   height: 1000px;
 }
 main .reservas .formulario {
+  color: black;
   width: 600px;
   height: fit-content;
   font-size: 20px;
@@ -204,6 +205,7 @@ main .reservas .formulario {
 }
 main .reservas .formulario input {
   margin-top: 20px;
+  border-radius: 0.5rem;
 }
 main .reservas .formulario label {
   margin-top: 20px;

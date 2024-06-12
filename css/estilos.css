@@ -73,7 +73,7 @@ main .tituloCarteleras {
   display: flex;
   width: 250px;
   height: 150px;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 main .carteleras {
   display: flex;
@@ -185,6 +185,7 @@ footer .barraInferior .item6 {
 }
 
 main .tituloReservas {
+  margin-top: 2rem;
   margin-left: 40%;
   font-size: 30px;
   width: 250px;

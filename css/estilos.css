@@ -575,20 +575,20 @@ main .contacto a img {
     display: none;
   }
   main .tituloCarteleras {
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-left: 5rem;
   }
   main .carteleras {
     flex-direction: column;
   }
   main .carteleras .imgCartelera {
-    margin-left: 4rem;
+    margin-left: 2rem;
     width: 17rem;
     margin-top: 5rem;
   }
   main .carteleras .imgCartelerasab {
     width: 17rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
     margin-top: 5rem;
   }
   main .separador1 {
@@ -619,6 +619,8 @@ main .contacto a img {
   }
   main #carouselExampleAutoplaying {
     width: 350px;
+    margin-top: 2rem;
+    margin-left: 1rem;
   }
   main .comida {
     width: 300px;

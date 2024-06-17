@@ -315,19 +315,19 @@
             display: none;
         }
         .tituloCarteleras{
-            margin-top: 5rem;
+            margin-top: 4rem;
             margin-left: 5rem;
         }
         .carteleras{
             flex-direction: column;
             .imgCartelera{
-                margin-left: 4rem;
+                margin-left: 2rem;
                 width: 17rem;
                 margin-top: 5rem;
             }
             .imgCartelerasab {
                 width: 17rem;
-                margin-left: 4rem;
+                margin-left: 2rem;
                 margin-top: 5rem;
             }
         }
@@ -368,6 +368,8 @@
     main{
         #carouselExampleAutoplaying{
             width: 350px;
+            margin-top: 2rem;
+            margin-left: 1rem;
         }
         .comida{
             width: 300px;

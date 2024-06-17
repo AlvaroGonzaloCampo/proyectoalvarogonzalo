@@ -631,6 +631,12 @@ main .contacto a img {
     padding: 0;
     margin-top: 3rem;
   }
+  main .comida .comidaIzquierda .imgMenu {
+    margin-left: 50%;
+  }
+  main .comida .comidaIzquierda h2 {
+    margin-left: 50%;
+  }
   main .comida .comidaDerecha {
     width: 300px;
     margin: 0;

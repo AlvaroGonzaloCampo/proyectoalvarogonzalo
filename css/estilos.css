@@ -575,6 +575,7 @@ main .contacto a img {
     display: none;
   }
   main .tituloCarteleras {
+    margin-top: 5rem;
     margin-left: 5rem;
   }
   main .carteleras {
@@ -583,12 +584,12 @@ main .contacto a img {
   main .carteleras .imgCartelera {
     margin-left: 4rem;
     width: 17rem;
-    margin-top: 10px;
+    margin-top: 5rem;
   }
   main .carteleras .imgCartelerasab {
     width: 17rem;
     margin-left: 4rem;
-    margin-top: 10px;
+    margin-top: 5rem;
   }
   main .separador1 {
     display: none;

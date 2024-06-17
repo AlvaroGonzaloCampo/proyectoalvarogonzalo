@@ -632,10 +632,10 @@ main .contacto a img {
     margin-top: 3rem;
   }
   main .comida .comidaIzquierda .imgMenu {
-    margin-left: 50%;
+    margin: 1rem auto;
   }
   main .comida .comidaIzquierda h2 {
-    margin-left: 50%;
+    margin-left: 1rem auto;
   }
   main .comida .comidaDerecha {
     width: 300px;

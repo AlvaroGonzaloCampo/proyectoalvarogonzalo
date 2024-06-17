@@ -642,6 +642,12 @@ main .contacto a img {
     margin: 0;
     padding: 0;
   }
+  main .comida .comidaDerecha .imgMenu {
+    margin: 1rem 40%;
+  }
+  main .comida .comidaDerecha h2 {
+    margin: 1rem 4rem;
+  }
   main .comida .carComida {
     width: 350px;
     margin-left: 1rem;

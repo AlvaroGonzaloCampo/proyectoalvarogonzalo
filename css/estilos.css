@@ -582,14 +582,14 @@ main .contacto a img {
     flex-direction: column;
   }
   main .carteleras .imgCartelera {
-    margin-left: 2rem;
+    margin-left: 4rem;
     width: 17rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
   main .carteleras .imgCartelerasab {
     width: 17rem;
-    margin-left: 2rem;
-    margin-top: 5rem;
+    margin-left: 4rem;
+    margin-top: 3rem;
   }
   main .separador1 {
     display: none;

@@ -19,7 +19,13 @@ main{
             font-family: $fuente-general;
             input{
                 margin-top: 20px;
-                border-radius: 0.5rem;
+                background-color: rgba(0, 0, 0, 0);
+                border-bottom-width: 2px;
+                border-bottom-color: black;
+                border-top-width: 0px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                outline: 0px;
             }
             label{
                 margin-top: 20px;

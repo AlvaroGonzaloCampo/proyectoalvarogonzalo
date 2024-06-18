@@ -3,23 +3,66 @@ main{
     .contacto{
         color: black;
         max-width: 100%;
-        height: 800px;
+        height: fit-content;
         text-align: center;
         margin-bottom: 2rem;
         margin-top: 5rem;
-        h2 {
-            font-family: $fuente-general;
-            font-weight: 600;
+        .escenario{
+            background-color: rgb(80, 24, 24);
+            width: 100vw;
+            max-width: 100%;
+            height: 25rem;
+            display: flex;
+            h2 {
+                font-family: $fuente-general;
+                font-weight: 600;
+                color: white;
+                padding-left: 1rem;
+                padding-top: 5rem;
+            }
+            p{
+                font-family: $fuente-general;
+                font-weight: 400;
+                font-size: 1.5rem;
+                color: white;
+                padding-top: 2rem;
+            }
+            img{
+                width: 74.5rem;
+                height: 25rem;
+            }
         }
-        h3{
-            font-family: $fuente-general;
-            font-weight: 400;
+        .productos{
+            background-color: rgb(80, 24, 24);
+            width: 100vw;
+            max-width: 100%;
+            height: 25rem;
+            display: flex;
+            h2 {
+                font-family: $fuente-general;
+                font-weight: 600;
+                color: white;
+                padding-left: 5rem;
+                padding-top: 5rem;
+            }
+            p{
+                font-family: $fuente-general;
+                font-weight: 400;
+                font-size: 1.5rem;
+                color: white;
+                padding-top: 2rem;
+            }
+            img{
+                width: 65.5rem;
+                height: 25rem;
+            }
         }
         .redes {
             max-width: 100%;
             height: fit-content;
             margin-top: 3rem;
             text-align: center;
+            color: white;
         }
         
         a img {
@@ -27,5 +70,6 @@ main{
             height: 50px;
             margin-top: 1rem;
         }
+    
     }
 }

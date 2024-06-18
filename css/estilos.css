@@ -312,24 +312,67 @@ main {
 main .contacto {
   color: black;
   max-width: 100%;
-  height: 800px;
+  height: fit-content;
   text-align: center;
   margin-bottom: 2rem;
   margin-top: 5rem;
 }
-main .contacto h2 {
+main .contacto .escenario {
+  background-color: rgb(80, 24, 24);
+  width: 100vw;
+  max-width: 100%;
+  height: 25rem;
+  display: flex;
+}
+main .contacto .escenario h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  color: white;
+  padding-left: 1rem;
+  padding-top: 5rem;
 }
-main .contacto h3 {
+main .contacto .escenario p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+  padding-top: 2rem;
+}
+main .contacto .escenario img {
+  width: 74.5rem;
+  height: 25rem;
+}
+main .contacto .productos {
+  background-color: rgb(80, 24, 24);
+  width: 100vw;
+  max-width: 100%;
+  height: 25rem;
+  display: flex;
+}
+main .contacto .productos h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
+  padding-left: 5rem;
+  padding-top: 5rem;
+}
+main .contacto .productos p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+  padding-top: 2rem;
+}
+main .contacto .productos img {
+  width: 65.5rem;
+  height: 25rem;
 }
 main .contacto .redes {
   max-width: 100%;
   height: fit-content;
   margin-top: 3rem;
   text-align: center;
+  color: white;
 }
 main .contacto a img {
   width: 50px;
@@ -442,10 +485,44 @@ main .contacto a img {
     margin-left: -7rem;
     padding-right: 5rem;
   }
+  main .contacto {
+    max-width: 100%;
+  }
+  main .contacto .escenario {
+    height: fit-content;
+  }
+  main .contacto .escenario img {
+    width: 35rem;
+    height: 15rem;
+  }
+  main .contacto .escenario h2 {
+    font-size: 1rem;
+    padding-left: 1em;
+  }
+  main .contacto .escenario p {
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+  main .contacto .productos {
+    height: fit-content;
+  }
+  main .contacto .productos img {
+    width: 32rem;
+    height: 15rem;
+  }
+  main .contacto .productos h2 {
+    padding-left: 0.7rem;
+    font-size: 1rem;
+  }
+  main .contacto .productos p {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
 }
 @media screen and (max-width: 480px) {
   header .barra {
     display: grid;
+    max-width: 100%;
     grid-template-columns: 100px auto;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "item4 item1" "item4 item2";
@@ -467,9 +544,9 @@ main .contacto a img {
   }
   header .barra .cartel {
     color: white;
-    font-size: 30px;
+    font-size: 1.7rem;
     padding-right: 6rem;
-    width: 400px;
+    width: 380px;
   }
   header .barra .menu {
     display: none;
@@ -557,13 +634,36 @@ main .contacto a img {
     margin-top: 3rem;
     font-size: 15px;
   }
-  .contacto h2 {
-    font-weight: 500;
-    font-size: 20px;
+  main .contacto .escenario img {
+    width: 17rem;
+    height: 10rem;
   }
-  .contacto h3 {
-    font-weight: 400;
-    font-size: 15px;
+  main .contacto .escenario h2 {
+    font-size: 1rem;
+    padding-left: 0rem;
+    padding-top: 1rem;
+  }
+  main .contacto .escenario p {
+    padding-left: 0rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+  }
+  main .contacto .productos {
+    height: fit-content;
+  }
+  main .contacto .productos img {
+    width: 14rem;
+    height: 10rem;
+  }
+  main .contacto .productos h2 {
+    padding-left: 0.7rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+  }
+  main .contacto .productos p {
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
   }
 }
 @media screen and (max-width: 400px) {
@@ -686,6 +786,44 @@ main .contacto a img {
   }
   main .historia h1 {
     width: 400px;
+  }
+  main .contacto .escenario {
+    display: flex;
+    flex-direction: column;
+  }
+  main .contacto .escenario img {
+    width: 100vw;
+    height: 15rem;
+  }
+  main .contacto .escenario h2 {
+    font-size: 1rem;
+    padding-left: 0rem;
+    padding-top: 1rem;
+  }
+  main .contacto .escenario p {
+    padding-left: 0rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+  }
+  main .contacto .productos {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+  main .contacto .productos img {
+    width: 100vw;
+    height: 13rem;
+    order: -1;
+  }
+  main .contacto .productos h2 {
+    padding-left: 0rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+  }
+  main .contacto .productos p {
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
   }
 }
 @font-face {

@@ -77,7 +77,7 @@
             }
         }
     }
-        //PAGINA DE RESERVAS
+    //PAGINA DE RESERVAS
     main{
         .tituloReservas {
             margin-top: 5%;
@@ -130,6 +130,42 @@
             }
         }
     }
+    //PAGINA DE CONTACTO
+    main{
+        .contacto{
+            max-width: 100%;
+            .escenario{
+                height: fit-content;
+                img{
+                    width: 35rem;
+                    height: 15rem;
+                }
+                h2{
+                    font-size: 1rem;
+                    padding-left: 1em;
+                }
+                p{
+                    padding-left: 1rem;
+                    font-size: 1rem;
+                }
+            }
+            .productos{
+                height: fit-content;
+                img{
+                    width: 32rem;
+                    height: 15rem;
+                }
+                h2{
+                    padding-left: 0.7rem;
+                    font-size: 1rem;
+                }
+                p{
+                    font-size: 1rem;
+                    padding-left: 1rem;
+                }
+            }
+        }
+    }
 }
 @media screen and (max-width:480px) {
 
@@ -137,6 +173,7 @@
     header{
         .barra{
             display: grid;
+            max-width: 100%;
             grid-template-columns: 100px auto;
             grid-template-rows: 1fr 1fr;
             grid-template-areas: 
@@ -159,9 +196,9 @@
             }
             .cartel{
                 color: white;
-                font-size: 30px;
+                font-size: 1.7rem;
                 padding-right: 6rem;
-                width: 400px;
+                width: 380px;
             }
             .menu{
                 display: none;
@@ -267,14 +304,41 @@
         }
     }
     //PAGINA DE CONTACTO
-    .contacto{
-        h2{
-            font-weight: 500;
-            font-size: 20px;
-        }
-        h3{
-            font-weight: 400;
-            font-size: 15px;
+    main{
+        .contacto{
+            .escenario{
+                img{
+                    width: 17rem;
+                    height: 10rem;
+                }
+                h2{
+                    font-size: 1rem;
+                    padding-left: 0rem;
+                    padding-top: 1rem;
+                }
+                p{
+                    padding-left: 0rem;
+                    padding-top: 1rem;
+                    font-size: 1rem;
+                }
+            }
+            .productos{
+                height: fit-content;
+                img{
+                    width: 14rem;
+                    height: 10rem;
+                }
+                h2{
+                    padding-left: 0.7rem;
+                    padding-top: 1rem;
+                    font-size: 1rem;
+                }
+                p{
+                    font-size: 0.8rem;
+                    padding-left: 1rem;
+                    padding-top: 1rem;
+                }
+            }
         }
     }
 }
@@ -419,6 +483,49 @@
             }
             h1{
                 width: 400px;
+            }
+        }
+    }
+    //PAGINA DE CONTACTO
+    main{
+        .contacto{
+            .escenario{
+                display: flex;
+                flex-direction: column;
+                img{
+                    width: 100vw;
+                    height: 15rem;
+                }
+                h2{
+                    font-size: 1rem;
+                    padding-left: 0rem;
+                    padding-top: 1rem;
+                }
+                p{
+                    padding-left: 0rem;
+                    padding-top: 1rem;
+                    font-size: 1rem;
+                }
+            }
+            .productos{
+                display: flex;
+                flex-direction: column;
+                height: fit-content;
+                img{
+                    width: 100vw;
+                    height: 13rem;
+                    order: -1;
+                }
+                h2{
+                    padding-left: 0rem;
+                    padding-top: 1rem;
+                    font-size: 1rem;
+                }
+                p{
+                    font-size: 1rem;
+                    padding-left: 1rem;
+                    padding-top: 1rem;
+                }
             }
         }
     }

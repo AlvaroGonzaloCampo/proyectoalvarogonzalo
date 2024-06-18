@@ -208,7 +208,7 @@ main .reservas .formulario input {
   margin-top: 20px;
   background-color: rgba(0, 0, 0, 0);
   border-bottom-width: 2px;
-  border-bottom-color: black;
+  border-bottom-color: white;
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
@@ -223,6 +223,7 @@ main .reservas .formulario .botonformulario {
   background-color: black;
   color: white;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-bottom-width: 0px;
 }
 main .reservas .pergamino {
   width: 469px;

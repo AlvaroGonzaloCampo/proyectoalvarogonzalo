@@ -218,12 +218,16 @@ main .reservas .formulario label {
   margin-top: 20px;
 }
 main .reservas .formulario .botonformulario {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1rem;
   background-color: black;
   color: white;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   border-bottom-width: 0px;
+}
+main .reservas .formulario .botonformulario:hover {
+  background-color: white;
+  color: black;
 }
 main .reservas .pergamino {
   width: 469px;

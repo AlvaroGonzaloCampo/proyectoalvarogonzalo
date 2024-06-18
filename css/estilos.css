@@ -634,6 +634,9 @@ main .contacto a img {
     margin-top: 3rem;
     font-size: 15px;
   }
+  main .contacto {
+    max-width: 100%;
+  }
   main .contacto .escenario img {
     width: 17rem;
     height: 10rem;
@@ -786,6 +789,9 @@ main .contacto a img {
   }
   main .historia h1 {
     width: 400px;
+  }
+  main .contacto {
+    max-width: 100%;
   }
   main .contacto .escenario {
     display: flex;
